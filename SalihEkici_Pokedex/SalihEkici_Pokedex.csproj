@@ -1,0 +1,132 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Aipom.jpg" />
+    <None Remove="Images\Ampharos.jpg" />
+    <None Remove="Images\Beautifly.jpg" />
+    <None Remove="Images\Bellossom.jpg" />
+    <None Remove="Images\Bidoof.jpg" />
+    <None Remove="Images\Blaziken.jpg" />
+    <None Remove="Images\Budew.jpg" />
+    <None Remove="Images\Butterfree.jpg" />
+    <None Remove="Images\Cascoon.jpg" />
+    <None Remove="Images\Charizard.jpg" />
+    <None Remove="Images\Charmander.jpg" />
+    <None Remove="Images\Charmeleon.jpg" />
+    <None Remove="Images\Chikorita.jpg" />
+    <None Remove="Images\Chimchar.jpg" />
+    <None Remove="Images\Combusken.jpg" />
+    <None Remove="Images\Dustox.jpg" />
+    <None Remove="Images\Empoleon.jpg" />
+    <None Remove="Images\Flaaffy.jpg" />
+    <None Remove="Images\Hoppip.jpg" />
+    <None Remove="Images\Ivysaur.jpg" />
+    <None Remove="Images\Jigglypuff.jpg" />
+    <None Remove="Images\Jumpluff.jpg" />
+    <None Remove="Images\Kricketot.jpg" />
+    <None Remove="Images\Lotad.jpg" />
+    <None Remove="Images\Marill.jpg" />
+    <None Remove="Images\Mewtwo.jpg" />
+    <None Remove="Images\Mightyena.jpg" />
+    <None Remove="Images\Monferno.jpg" />
+    <None Remove="Images\Nidoking.jpg" />
+    <None Remove="Images\Ninetails.jpg" />
+    <None Remove="Images\Pidgey.jpg" />
+    <None Remove="Images\pikachu.jpg" />
+    <None Remove="Images\Piplup.jpg" />
+    <None Remove="Images\pokeball.jpg" />
+    <None Remove="Images\Politoed.jpg" />
+    <None Remove="Images\Poochyena.jpg" />
+    <None Remove="Images\Roserade.jpg" />
+    <None Remove="Images\Shieldon.jpg" />
+    <None Remove="Images\Shiftry.jpg" />
+    <None Remove="Images\Shinx.jpg" />
+    <None Remove="Images\Skiploom.jpg" />
+    <None Remove="Images\Starly.jpg" />
+    <None Remove="Images\Sudowoodo.jpg" />
+    <None Remove="Images\Swampert.jpg" />
+    <None Remove="Images\Taillow.jpg" />
+    <None Remove="Images\Torterra.jpg" />
+    <None Remove="Images\Venusaur.jpg" />
+    <None Remove="Images\Vulpix.jpg" />
+    <None Remove="Images\Weedle.jpg" />
+    <None Remove="Images\Xatu.jpg" />
+    <None Remove="Images\Zigzagoon.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Weedle.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Aipom.jpg" />
+    <Resource Include="Images\Ampharos.jpg" />
+    <Resource Include="Images\Beautifly.jpg" />
+    <Resource Include="Images\Bellossom.jpg" />
+    <Resource Include="Images\Bidoof.jpg" />
+    <Resource Include="Images\Blaziken.jpg" />
+    <Resource Include="Images\Budew.jpg" />
+    <Resource Include="Images\Butterfree.jpg" />
+    <Resource Include="Images\Cascoon.jpg" />
+    <Resource Include="Images\Charizard.jpg" />
+    <Resource Include="Images\Charmander.jpg" />
+    <Resource Include="Images\Charmeleon.jpg" />
+    <Resource Include="Images\Chikorita.jpg" />
+    <Resource Include="Images\Chimchar.jpg" />
+    <Resource Include="Images\Combusken.jpg" />
+    <Resource Include="Images\Dustox.jpg" />
+    <Resource Include="Images\Empoleon.jpg" />
+    <Resource Include="Images\Flaaffy.jpg" />
+    <Resource Include="Images\Hoppip.jpg" />
+    <Resource Include="Images\Ivysaur.jpg" />
+    <Resource Include="Images\Jigglypuff.jpg" />
+    <Resource Include="Images\Jumpluff.jpg" />
+    <Resource Include="Images\Kricketot.jpg" />
+    <Resource Include="Images\Lotad.jpg" />
+    <Resource Include="Images\Marill.jpg" />
+    <Resource Include="Images\Mewtwo.jpg" />
+    <Resource Include="Images\Mightyena.jpg" />
+    <Resource Include="Images\Monferno.jpg" />
+    <Resource Include="Images\Nidoking.jpg" />
+    <Resource Include="Images\Ninetails.jpg" />
+    <Resource Include="Images\Pidgey.jpg" />
+    <Resource Include="Images\pikachu.jpg" />
+    <Resource Include="Images\Piplup.jpg" />
+    <Resource Include="Images\pokeball.jpg" />
+    <Resource Include="Images\Politoed.jpg" />
+    <Resource Include="Images\Poochyena.jpg" />
+    <Resource Include="Images\Roserade.jpg" />
+    <Resource Include="Images\Shieldon.jpg" />
+    <Resource Include="Images\Shiftry.jpg" />
+    <Resource Include="Images\Shinx.jpg" />
+    <Resource Include="Images\Skiploom.jpg" />
+    <Resource Include="Images\Starly.jpg" />
+    <Resource Include="Images\Sudowoodo.jpg" />
+    <Resource Include="Images\Swampert.jpg" />
+    <Resource Include="Images\Taillow.jpg" />
+    <Resource Include="Images\Torterra.jpg" />
+    <Resource Include="Images\Venusaur.jpg" />
+    <Resource Include="Images\Vulpix.jpg" />
+    <Resource Include="Images\Xatu.jpg" />
+    <Resource Include="Images\Zigzagoon.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="PokemonDb.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

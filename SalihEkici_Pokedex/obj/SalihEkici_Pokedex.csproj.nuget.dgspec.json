@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Salih Ekici\\source\\repos\\SalihEkici_Pokedex\\SalihEkici_Pokedex\\SalihEkici_Pokedex.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Salih Ekici\\source\\repos\\SalihEkici_Pokedex\\SalihEkici_Pokedex\\SalihEkici_Pokedex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Salih Ekici\\source\\repos\\SalihEkici_Pokedex\\SalihEkici_Pokedex\\SalihEkici_Pokedex.csproj",
+        "projectName": "SalihEkici_Pokedex",
+        "projectPath": "C:\\Users\\Salih Ekici\\source\\repos\\SalihEkici_Pokedex\\SalihEkici_Pokedex\\SalihEkici_Pokedex.csproj",
+        "packagesPath": "C:\\Users\\Salih Ekici\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Salih Ekici\\source\\repos\\SalihEkici_Pokedex\\SalihEkici_Pokedex\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Salih Ekici\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
