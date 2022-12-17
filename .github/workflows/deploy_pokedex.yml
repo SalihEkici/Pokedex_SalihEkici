@@ -5,9 +5,6 @@ on:
     tags:
       - "Pokedex/v*"
 
-env:
-  PROJECT_PATH: SalihEkici_Pokedex/SalihEkici_Pokedex.csproj
-
 jobs:
   deploy:
     runs-on: windows-latest
@@ -20,7 +17,7 @@ jobs:
 
       - run: dotnet restore
       - run: dotnet build  --no-restore
-      - run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 p:PublishSingleFile=true  --no-build
+      - run: dotnet publish SalihEkici_Pokedex.csproj -c Release --self-contained -r win-x64 p:PublishSingleFile=true  --no-build
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
