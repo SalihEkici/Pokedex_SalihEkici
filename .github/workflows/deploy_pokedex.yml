@@ -3,7 +3,7 @@ name: "Deploy Pokedex"
 on:
   push:
     tags:
-      - "class-commands/v*"
+      - "SalihEkici_Pokedex/v*"
 env:
   PROJECT_PATH: SalihEkici_Pokedex/SalihEkici_Pokedex.csproj
 
