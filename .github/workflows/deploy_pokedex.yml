@@ -17,7 +17,7 @@ jobs:
 
       - run: dotnet restore
       - run: dotnet build  --no-restore
-      - run: dotnet publish SalihEkici_Pokedex/SalihEkici_Pokedex.csproj -c Release -o release -r win-x64 /p:PublishSingleFile=true /p:PublishTrimmed=true
+      - run: dotnet publish SalihEkici_Pokedex/SalihEkici_Pokedex.csproj -c Release -o release -r win-x64 -p:PublishSingleFile=true -p:PublishTrimmed=true
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
