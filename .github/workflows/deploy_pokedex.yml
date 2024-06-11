@@ -1,9 +1,10 @@
 name: "Deploy Pokedex"
 
-on:
+on: 
   push:
     tags:
       - "Pokedex/v*"
+  workflow_dispatch:
 
 jobs:
   deploy:
